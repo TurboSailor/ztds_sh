@@ -132,7 +132,7 @@ mkdir -m 777 /var/www/html/$domain
 
 rm -rf /tmp/ztds
 rm -f /tmp/ztds.7z
-curl -L -o /tmp/ztds.7z https://github.com/TurboSailor/ztds_sh/raw/main/$ztds_version.7z?raw=true
+curl -L -o /tmp/ztds.7z https://raw.githubusercontent.com/TurboSailor/ztds_sh/main/$ztds_version.7z?raw=true
 7za x -o/tmp/ztds /tmp/ztds.7z
 cp -a /tmp/ztds/$ztds_version/. /var/www/html/$domain
 chmod 777 -R /var/www/html/$domain
