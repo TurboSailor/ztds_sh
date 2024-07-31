@@ -67,7 +67,7 @@ chmod 777 /var/www/html/$domain
 # Скачивание и распаковка приложения
 curl -L -o /tmp/ztds.7z https://raw.githubusercontent.com/TurboSailor/ztds_sh/main/ztds_v.0.8.4.7z
 7z x -o/tmp/ztds /tmp/ztds.7z
-cp -a /tmp/ztds/$ztds_version/. /var/www/html/$domain
+cp -a /tmp/ztds/ztds.ru/$ztds_version/. /var/www/html/$domain
 chmod -R 777 /var/www/html/$domain
 chown -R www-data:www-data /var/www/html/$domain
 
