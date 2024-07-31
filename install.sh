@@ -8,7 +8,7 @@ read -p 'Enter domain name (e.g. site.ru) and press [ENTER]: ' domain </dev/tty
 
 
 # Установка необходимых пакетов
-apt update
+apt update && apt upgrade
 apt install -y ufw p7zip-full nginx php-fpm php-cli php-gd php-ldap php-odbc php-pdo php-memcache php-pear php-xml php-xmlrpc php-mbstring php-snmp php-soap unzip
 
 # Установка UFW и настройка правил
