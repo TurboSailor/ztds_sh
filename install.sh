@@ -82,7 +82,6 @@ mv /var/www/html/$domain/admin.php /var/www/html/$domain/$new_admin_php.php
 
 /bin/cat <<EOM >/var/www/html/$domain/config.php
 <?php
-<?php
 /********************************************\
 | Telegram-канал: https://t.me/z_tds         |
 | Вход в админку: admin.php (admin/admin)    |
